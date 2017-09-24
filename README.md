@@ -24,7 +24,7 @@ by hand.
 ### Basic usage
 
 ```
-python smart_converter.py input.pdf
+python smart_extractor.py input.pdf
 ```
 This will extract data from `input.pdf`, saving the extracted data in `output.csv` and the missed emails in `missed.csv`.
 If `output.csv` or `missed.csv` exist, you can supply different output names with `-o` and `-m`, or use `-f` to overwrite
@@ -32,13 +32,13 @@ existing files.
 
 ### Batch convert
 ```
-python smart_converter.py input1.pdf path/to/input2.pdf directory/of/pdfs/
+python smart_extractor.py input1.pdf path/to/input2.pdf directory/of/pdfs/
 ```
 You can supply multiple PDF files, as well as directories containing PDFs. The results are collected and written to output.csv and missed.csv.
 
 ### All options
 ```
-usage: smart_converter.py [-h] [-o OUTPUT] [-m MISSED] [-f] [-q]
+usage: smart_extractor.py [-h] [-o OUTPUT] [-m MISSED] [-f] [-q]
                           input [input ...]
 
 Extract GSF data from PDF. Good entries are saved in output.csv; entries that
