@@ -13,9 +13,9 @@ by hand.
 ## How to install dependencies
  1. Download and install [python](https://www.python.org/downloads/) and [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html), if you don't have them
  2. (optional) Install [virtualenv](https://virtualenv.pypa.io/en/stable/installation/) and configure an environment
-   1. `pip install virtualenv`
-   2. `virtualenv pdf`
-   3. `pdf\Scripts\activate` (use `deactivate` to exit the virtualenv) 
+     1. `pip install virtualenv`
+     2. `virtualenv pdf`
+     3. `pdf\Scripts\activate` (use `deactivate` to exit the virtualenv) 
  3. Install tabula-py: `pip install tabula-py`
     *NOTE*: tabula-py relies on pandas; it is strongly recommended that you install this within a virtualenv
 
